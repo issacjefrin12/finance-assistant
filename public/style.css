@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #34495e;
+}
+
+input, button, select {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+button.signup {
+  background-color: #27ae60;
+}
+
+button.login {
+  background-color: #2980b9;
+}
+
+button.add {
+  background-color: #8e44ad;
+}
+
+#status {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+.transaction {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.transaction strong {
+  color: #2c3e50;
+}
+
+#summary p {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  input, select, button {
+    max-width: 400px;
+  }
+}
